@@ -13,12 +13,12 @@ on:
       kernel_source:
         description: "Select the kernel source"
         required: false
-        default: "unifreq"
+        default: "w2xg2022/linux-6.18.y@md1000-rk3566"
         type: choice
         options:
-          - w2xg2022/linux-6.18.y@md1000-rk3566
           - unifreq
           - ophub
+          - w2xg2022/linux-6.18.y@md1000-rk3566
       kernel_version:
         description: "Select kernel version"
         required: false
