@@ -16,6 +16,7 @@ on:
         default: "unifreq"
         type: choice
         options:
+          - w2xg2022/linux-6.18.y@md1000-rk3566
           - unifreq
           - ophub
       kernel_version:
